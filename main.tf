@@ -5,3 +5,11 @@ module "simplemodule" {
   rg_name  = "tasktfstate"
   st_name  = "nichstorage"
 }
+
+# Example for local usage
+# module "resource_group_storage" {
+#   source   = "./modules/resource_group_storage"
+#   rg_name  = "specific-resource-group"
+#   st_name  = "specificstorageaccount"
+#   location = "West US"
+# }
